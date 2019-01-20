@@ -50,4 +50,17 @@ class Cookie
     {
         return self::has($name) ? $_COOKIE[$name] : $default;
     }
+
+    /**
+     * Remove cookie by name
+     *
+     * @param string $name
+     */
+    public static function remove(string $name): void
+    {
+        if (self::has($name)) {
+            self::set($name, null, -time());
+            unset($_COOKIE[$name]);
+        }
+    }
 }
