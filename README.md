@@ -5,6 +5,15 @@ The helpers allows you to easily manage cookie data. SET, HAS, GET, REMOVE cooki
 
 Project repository: https://github.com/cs-eliseev/helpers-cookie
 
+```php
+Cookie::set('cookie_example', 12345);
+// ['cookie_example' => 12345]
+if (Cookie::has('cookie_example')) Cookie::remove('cookie_example')
+// true
+Cookie::get('cookie_example', 67890)
+// 67890
+```
+
 ***
 
 
