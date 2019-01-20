@@ -65,7 +65,7 @@ The class consists of static methods that are conveniently used in any project. 
 
 Example:
 ```php
-   Cookie::set('cookie_example', 12345);
+Cookie::set('cookie_example', 12345);
 // ['cookie_example' => 12345]
 ```
 
@@ -73,10 +73,17 @@ Example:
 
 Example:
 ```php
-   Cookie::has('cookie_example');
+Cookie::has('cookie_example');
 // true
 ```
 
+**GET cookie**
+
+Example:
+```php
+Cookie::get('cookie_example');
+// 12345
+```
 
 ## License
 
