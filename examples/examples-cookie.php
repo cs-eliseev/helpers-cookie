@@ -13,3 +13,7 @@ Cookie::set($key, 12345);
 // Example: has
 // cookie_example => true
 Cookie::has($key);
+
+// Example: get
+// cookie_example => 12345
+Cookie::get($key);
