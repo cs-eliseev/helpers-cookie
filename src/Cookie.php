@@ -38,4 +38,16 @@ class Cookie
     {
         return isset($_COOKIE[$name]);
     }
+
+    /**
+     * Get cookie by name
+     *
+     * @param string $name
+     * @param null $default
+     * @return null|mixed
+     */
+    public static function get(string $name, $default = null)
+    {
+        return self::has($name) ? $_COOKIE[$name] : $default;
+    }
 }
