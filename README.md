@@ -85,6 +85,14 @@ Cookie::get('cookie_example');
 // 12345
 ```
 
+Example:
+```php
+   Cookie::remove('cookie_example');
+Cookie::has('cookie_example');
+// false
+```
+
+
 ## License
 
 See the [LICENSE.md](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) file for licensing details.
