@@ -85,6 +85,12 @@ Cookie::get('cookie_example');
 // 12345
 ```
 
+Set default value:
+```php
+Cookie::get('cookie_example_2', 67890);
+// 67890
+```
+
 **REMOVE cookie**
 
 Example:
