@@ -117,4 +117,16 @@ class TestCookie extends TestCase
             ],
         ];
     }
+
+    /**
+     * @runInSeparateProcess
+     */
+    public function testRemove(): void
+    {
+        $name = 'cookie_test';
+
+        Cookie::set($name, $name);
+        Cookie::remove($name);
+        $this->assertFalse(isset($_COOKIE[$name]));
+    }
 }
