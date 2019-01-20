@@ -27,4 +27,15 @@ class Cookie
 
         return setcookie($name, $value, time() + $timeout, $path);
     }
+
+    /**
+     * Check cookie by name
+     *
+     * @param string $name
+     * @return bool
+     */
+    public static function has(string $name): bool
+    {
+        return isset($_COOKIE[$name]);
+    }
 }
