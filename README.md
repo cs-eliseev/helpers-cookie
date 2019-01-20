@@ -56,6 +56,20 @@ git clone https://github.com/cs-eliseev/helpers-cookie.git
 [Download the latest release here](https://github.com/cs-eliseev/helpers-cookie/archive/master.zip).
 
 
+
+## Usage
+
+The class consists of static methods that are conveniently used in any project. See example [examples-cookie.php](https://github.com/cs-eliseev/helpers-word/blob/master/examples/examples-cookie.php).
+
+**SET cookie**
+
+Example:
+```php
+   Cookie::set('cookie_example', 12345);
+// ['cookie_example' => 12345]
+```
+
+
 ## License
 
 See the [LICENSE.md](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) file for licensing details.
