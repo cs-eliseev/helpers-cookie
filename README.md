@@ -69,6 +69,14 @@ Example:
 // ['cookie_example' => 12345]
 ```
 
+**HAS cookie**
+
+Example:
+```php
+   Cookie::has('cookie_example');
+// true
+```
+
 
 ## License
 
