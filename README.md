@@ -85,9 +85,11 @@ Cookie::get('cookie_example');
 // 12345
 ```
 
+**REMOVE cookie**
+
 Example:
 ```php
-   Cookie::remove('cookie_example');
+Cookie::remove('cookie_example');
 Cookie::has('cookie_example');
 // false
 ```
