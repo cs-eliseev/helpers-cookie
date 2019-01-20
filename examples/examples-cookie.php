@@ -17,3 +17,8 @@ Cookie::has($key);
 // Example: get
 // cookie_example => 12345
 Cookie::get($key);
+
+// Example: remove
+// cookie_example => false
+Cookie::remove($key);
+Cookie::has($key);
