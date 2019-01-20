@@ -76,4 +76,45 @@ class TestCookie extends TestCase
             ],
         ];
     }
+
+    /**
+     * @param $name
+     * @param $default
+     * @param $set
+     * @param $expected
+     *
+     * @dataProvider providerGet
+     *
+     * @runInSeparateProcess
+     */
+    public function testGet(string $name, $default, $set, $expected): void
+    {
+        if ($set) {
+            Cookie::set($name, $name);
+        }
+        $actual = Cookie::get($name, $default);
+        $this->assertEquals($expected, $actual);
+    }
+
+    /**
+     * @return array
+     */
+    public function providerGet(): array
+    {
+        return [
+            [
+                'cookie_test',
+                12345,
+                true,
+                12345,
+            ],
+
+            [
+                'cookie_test',
+                false,
+                false,
+                false,
+            ],
+        ];
+    }
 }
