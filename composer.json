@@ -1,6 +1,6 @@
 {
   "name": "cse/helpers-cookie",
-  "description": "",
+  "description": "The helpers allows you to easily manage cookie data. SET, HAS, GET, REMOVE cookie data - all this is available in this library.",
   "keywords": ["cookie", "cse", "cs-eliseev", "framework", "basic", "library", "project"],
   "homepage": "https://github.com/cs-eliseev/helpers-cookie",
   "type": "library",
