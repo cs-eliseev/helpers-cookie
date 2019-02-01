@@ -90,7 +90,7 @@ class TestCookie extends TestCase
     public function testGet(string $name, $default, $set, $expected): void
     {
         if ($set) {
-            Cookie::set($name, $name);
+            Cookie::set($name, $default);
         }
         $actual = Cookie::get($name, $default);
         $this->assertEquals($expected, $actual);
