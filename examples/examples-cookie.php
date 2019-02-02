@@ -8,17 +8,21 @@ $key = 'cookie_example';
 
 // Example: set
 // 12345 => ['cookie_example' => 12345]
-Cookie::set($key, 12345);
+var_dump(Cookie::set($key, 12345));
+echo PHP_EOL;
 
 // Example: has
 // cookie_example => true
-Cookie::has($key);
+var_dump(Cookie::has($key));
+echo PHP_EOL;
 
 // Example: get
 // cookie_example => 12345
-Cookie::get($key);
+var_dump(Cookie::get($key));
+echo PHP_EOL;
 
 // Example: remove
 // cookie_example => false
 Cookie::remove($key);
-Cookie::has($key);
+var_dump(Cookie::has($key));
+echo PHP_EOL;
