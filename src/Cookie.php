@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace cse\helpers;
 
 /**
@@ -9,7 +11,7 @@ namespace cse\helpers;
  */
 class Cookie
 {
-    const COOKIE_PATH    = '/';
+    const COOKIE_PATH = '/';
     const COOKIE_TIMEOUT = 432000;
 
     /**
@@ -18,10 +20,10 @@ class Cookie
      * @param string $name
      * @param $value
      * @param string $path
-     * @param string $timeout
+     * @param int $timeout
      * @return bool
      */
-    public static function set(string $name, $value, string $path = self::COOKIE_PATH, string $timeout = self::COOKIE_TIMEOUT): bool
+    public static function set(string $name, $value, string $path = self::COOKIE_PATH, int $timeout = self::COOKIE_TIMEOUT): bool
     {
         $_COOKIE[$name] = $value;
 
