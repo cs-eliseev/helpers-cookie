@@ -8,9 +8,9 @@ Project repository: https://github.com/cs-eliseev/helpers-cookie
 ```php
 Cookie::set('cookie_example', 12345);
 // ['cookie_example' => 12345]
-if (Cookie::has('cookie_example')) Cookie::remove('cookie_example')
+if (Cookie::has('cookie_example')) Cookie::remove('cookie_example');
 // true
-Cookie::get('cookie_example', 67890)
+Cookie::get('cookie_example', 67890);
 // 67890
 ```
 
@@ -64,7 +64,6 @@ git clone https://github.com/cs-eliseev/helpers-cookie.git
 ### Download
 
 [Download the latest release here](https://github.com/cs-eliseev/helpers-cookie/archive/master.zip).
-
 
 
 ## Usage
