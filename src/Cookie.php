@@ -27,7 +27,7 @@ class Cookie
     {
         $_COOKIE[$name] = $value;
 
-        return setcookie($name, $value, time() + $timeout, $path);
+        return setcookie($name, (string) $value, time() + $timeout, $path);
     }
 
     /**
@@ -61,7 +61,7 @@ class Cookie
     public static function remove(string $name): void
     {
         if (self::has($name)) {
-            self::set($name, null, -time());
+            self::set($name, null, self::COOKIE_PATH, -time());
             unset($_COOKIE[$name]);
         }
     }
