@@ -21,6 +21,7 @@ class Cookie
      * @param $value
      * @param string $path
      * @param int $timeout
+     *
      * @return bool
      */
     public static function set(string $name, $value, string $path = self::COOKIE_PATH, int $timeout = self::COOKIE_TIMEOUT): bool
@@ -34,6 +35,7 @@ class Cookie
      * Check cookie by name
      *
      * @param string $name
+     *
      * @return bool
      */
     public static function has(string $name): bool
@@ -46,6 +48,7 @@ class Cookie
      *
      * @param string $name
      * @param null $default
+     *
      * @return null|mixed
      */
     public static function get(string $name, $default = null)
