@@ -1,6 +1,11 @@
 COOKIE CSE HELPERS
 =======
 
+[![Packagist](https://img.shields.io/packagist/v/cse/helpers-cookie.svg?style=flat-square)](https://packagist.org/packages/cse/helpers-cookie)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg?style=flat-square)](https://packagist.org/packages/cse/helpers-cookie)
+[![Packagist](https://img.shields.io/packagist/l/cse/helpers-cookie.svg?style=flat-square)](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md)
+[![GitHub repo size](https://img.shields.io/github/repo-size/cs-eliseev/helpers-cookie.svg?style=flat-square)](https://github.com/cs-eliseev/helpers-cookie/archive/master.zip)
+
 The helpers allows you to easily manage cookie data. SET, HAS, GET, REMOVE cookie data - all this is available in this library.
 
 Project repository: https://github.com/cs-eliseev/helpers-cookie
