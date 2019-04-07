@@ -1,3 +1,5 @@
+[English](https://github.com/cs-eliseev/helpers-cookie/blob/master/README.md) | Русский
+
 COOKIE CSE HELPERS
 =======
 
@@ -14,6 +16,7 @@ The helpers allows you to easily manage cookie data. SET, HAS, GET, REMOVE cooki
 
 Project repository: https://github.com/cs-eliseev/helpers-cookie
 
+**DEMO**
 ```php
 Cookie::set('cookie_example', 12345);
 // ['cookie_example' => 12345]
@@ -150,7 +153,7 @@ phpunit --configuration PATH/TO/PROJECT/phpunit.xml
 
 ## License
 
-The CSE HELPERS is open-sourced software licensed under the MIT license. Please see [License File](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) for more information.
+The CSE HELPERS COOKIE is open-source PHP library licensed under the MIT license. Please see [License File](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) for more information.
 
 ***
 
