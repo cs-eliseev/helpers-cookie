@@ -31,11 +31,11 @@ Cookie::get('cookie_example', 67890);
 
 ## Introduction
 
-CSE HELPERS is a collection of several libraries with simple functions written in PHP for people.
+[CSE HELPERS](https://github.com/cs-eliseev/helpers/blob/master/README.md) is a collection of several libraries with simple functions written in PHP for people.
 
 Despite using PHP as the main programming language for the Internet, its functions are not enough. COOKIE CSE HELPERS allows you to easy SET, HAS, GET, REMOVE cookie data.
 
-CSE HELPERS was created for the rapid development of web applications.
+[CSE HELPERS](https://github.com/cs-eliseev/helpers/blob/master/README.md) was created for the rapid development of web applications.
 
 **CSE Helpers project:**
 * [Array CSE helpers](https://github.com/cs-eliseev/helpers-arrays)
@@ -160,7 +160,7 @@ Even voicing your suggestions for features is great. Anything to help is much ap
 
 ## License
 
-The CSE HELPERS COOKIE is open-source PHP library licensed under the MIT license. Please see [License File](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) for more information.
+The COOKIE CSE HELPERS is open-source PHP library licensed under the MIT license. Please see [License File](https://github.com/cs-eliseev/helpers-cookie/blob/master/LICENSE.md) for more information.
 
 ***
 
